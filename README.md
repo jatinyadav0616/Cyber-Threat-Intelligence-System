@@ -10,7 +10,7 @@
 
 **An AI-powered real-time network threat detection and intelligence system**
 
-*Built by [Jatin Yadav](https://www.linkedin.com/in/jatin-yadav-72612b257/) | Shri Vishwakarma Skill University, Palwal*
+*Built by [Jatin Yadav](https://www.linkedin.com/in/jatin-yadav-72612b257/)
 
 </div>
 

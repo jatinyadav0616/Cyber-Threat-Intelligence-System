@@ -211,6 +211,5 @@ This project is open source under the [MIT License](LICENSE).
 
 ⭐ **Star this repo if you found it useful!** ⭐
 
-*Built with ❤️ for cybersecurity, defence research, and open source*
 
 </div>

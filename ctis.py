@@ -14,7 +14,7 @@
   3. Assigns real-time Risk Score (0–100) to every IP / entity
   4. Detects attack campaigns by correlating multiple events
   5. Generates a full Threat Intelligence Report (TIR)
-  6. Simulates a live SOC (Security Operations Center) dashboardddd
+  6. Simulates a live SOC (Security Operations Center) dashboard
 
   THREAT CATEGORIES DETECTED:
   ────────────────────────────

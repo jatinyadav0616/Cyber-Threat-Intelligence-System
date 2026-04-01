@@ -21,7 +21,7 @@
   • Brute Force Attack       • SQL Injection
   • DDoS / DoS               • Malware C2 Beacon
   • Port Scan / Recon        • Data Exfiltration
-  • Privilege Escalation     • Zero-Day Exploit Attemptt
+  • Privilege Escalation     • Zero-Day Exploit Attempt
 """
 
 import numpy as np

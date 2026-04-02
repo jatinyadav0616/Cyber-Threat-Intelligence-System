@@ -197,7 +197,7 @@ Cyber-Threat-Intelligence-System/
 - [ ] Email alerts for CRITICAL threats
 - [ ] Integration with real **SIEM tools**
 - [ ] Deploy as a **background service**
-- [ ] Connect to real **CICIDS2017 dataset**
+- [ ] Connect to real **CICIDS2017 datasettttttt**
 
 ---
 

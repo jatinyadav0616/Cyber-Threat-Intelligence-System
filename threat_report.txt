@@ -1,0 +1,120 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              THREAT INTELLIGENCE REPORT (TIR)                              ║
+║              Report ID : TIR-222E79E7                                      ║
+║              Generated : 2026-04-07 14:04:27                           ║
+║              Analyst   : AI Engine v1.0 | Jatin Yadav, SVSU               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+1. EXECUTIVE SUMMARY
+───────────────────────────────────────────────────────────────────────────────
+   Total Events Analyzed  : 3,000
+   Malicious Events       : 2,133 (71.1%)
+   Unique Attacker IPs    : 2127
+   Active Campaigns       : 8
+   AI Model Accuracy      : 99.50%
+   Analysis Period        : Last 24 Hours
+
+2. THREAT BREAKDOWN
+───────────────────────────────────────────────────────────────────────────────
+   ddos                   329 events  (11.0%)  Risk: 70  █████████████████████
+   sql_injection          313 events  (10.4%)  Risk: 60  ████████████████████
+   malware_c2             304 events  (10.1%)  Risk: 80  ████████████████████
+   brute_force            303 events  (10.1%)  Risk: 65  ████████████████████
+   port_scan              301 events  (10.0%)  Risk: 40  ████████████████████
+   data_exfil             235 events  ( 7.8%)  Risk: 90  ███████████████
+   privilege_esc          225 events  ( 7.5%)  Risk: 85  ███████████████
+   zero_day               123 events  ( 4.1%)  Risk: 95  ████████
+
+3. TOP 10 HIGH-RISK IP ADDRESSES
+───────────────────────────────────────────────────────────────────────────────
+   IP Address            Risk  Level       Events  Country       Threats
+   185.220.238.105        100  100/100        1  Germany       data_exfil
+   192.42.245.251         100  100/100        2  USA           data_exfil, malware_c2
+   185.220.134.47         100  100/100        1  India         data_exfil
+   192.42.125.159         100  100/100        1  Iran          data_exfil
+   23.129.217.18          100  100/100        1  Germany       zero_day
+   192.42.92.79           100  100/100        1  Iran          data_exfil
+   185.220.182.105        100  100/100        1  Germany       data_exfil
+   45.155.213.144         100  100/100        1  USA           data_exfil
+   198.98.151.13          100  100/100        1  USA           data_exfil
+   198.98.45.164          100  100/100        1  Unknown       data_exfil
+
+4. ATTACK CAMPAIGNS DETECTED
+───────────────────────────────────────────────────────────────────────────────
+   Campaign #1: ZERO DAY
+   ├── Participating IPs : 123
+   ├── Total Events      : 123
+   ├── Avg Bytes Sent    : 1,635
+   ├── Origin Country    : Germany
+   └── Severity          : ZERO_DAY (95/100)
+
+   Campaign #2: DATA EXFIL
+   ├── Participating IPs : 235
+   ├── Total Events      : 235
+   ├── Avg Bytes Sent    : 269,358
+   ├── Origin Country    : India
+   └── Severity          : DATA_EXFIL (90/100)
+
+   Campaign #3: PRIVILEGE ESC
+   ├── Participating IPs : 225
+   ├── Total Events      : 225
+   ├── Avg Bytes Sent    : 537
+   ├── Origin Country    : Iran
+   └── Severity          : PRIVILEGE_ESC (85/100)
+
+   Campaign #4: MALWARE C2
+   ├── Participating IPs : 304
+   ├── Total Events      : 304
+   ├── Avg Bytes Sent    : 1,150
+   ├── Origin Country    : Unknown
+   └── Severity          : MALWARE_C2 (80/100)
+
+   Campaign #5: DDOS
+   ├── Participating IPs : 329
+   ├── Total Events      : 329
+   ├── Avg Bytes Sent    : 54,006
+   ├── Origin Country    : Brazil
+   └── Severity          : DDOS (70/100)
+
+   Campaign #6: BRUTE FORCE
+   ├── Participating IPs : 303
+   ├── Total Events      : 303
+   ├── Avg Bytes Sent    : 296
+   ├── Origin Country    : China
+   └── Severity          : BRUTE_FORCE (65/100)
+
+   Campaign #7: SQL INJECTION
+   ├── Participating IPs : 313
+   ├── Total Events      : 313
+   ├── Avg Bytes Sent    : 2,662
+   ├── Origin Country    : USA
+   └── Severity          : SQL_INJECTION (60/100)
+
+   Campaign #8: PORT SCAN
+   ├── Participating IPs : 300
+   ├── Total Events      : 301
+   ├── Avg Bytes Sent    : 119
+   ├── Origin Country    : Germany
+   └── Severity          : PORT_SCAN (40/100)
+
+
+5. RECOMMENDATIONS
+───────────────────────────────────────────────────────────────────────────────
+   [CRITICAL] Block top 10 high-risk IPs at firewall immediately.
+   [HIGH]     Enable MFA on all SSH, RDP, and admin portals.
+   [HIGH]     Deploy WAF rules to counter SQL injection attempts.
+   [MEDIUM]   Increase log retention to 90 days for forensic analysis.
+   [MEDIUM]   Enable geo-blocking for high-risk origin countries.
+   [LOW]      Schedule penetration testing within next 30 days.
+
+6. AI MODEL PERFORMANCE
+───────────────────────────────────────────────────────────────────────────────
+   Algorithm    : Random Forest (150 estimators)
+   Accuracy     : 99.50%
+   Features     : 11 (network + behavioral)
+   Anomaly Det. : Isolation Forest (unsupervised layer)
+
+───────────────────────────────────────────────────────────────────────────────
+   END OF REPORT | TIR-222E79E7 | CONFIDENTIAL — FOR AUTHORIZED USE ONLY
+───────────────────────────────────────────────────────────────────────────────
